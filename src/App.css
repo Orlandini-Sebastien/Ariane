@@ -1,0 +1,74 @@
+header, footer {
+	display: flex;
+	justify-content: center;
+	padding: 2vh;
+
+	font-weight: 600;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  	font-size: 32px;
+}
+footer{
+  font-size: 12px;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.white {
+	background-color: white;
+}
+
+.classGo {
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+}
+.classNo {
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+}
+
+.layout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	font-size: 26px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.toggles {
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.button {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.toggle {
+	display: flex;
+}
+
+.text {
+	width: 100px;
+	text-align: center;
+}
+a{
+  padding-left: 5px;
+    padding-right: 5px;
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
